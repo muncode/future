@@ -8,7 +8,7 @@ $(document).ready(function() {
             success: function(response)
             {
                 let jsonData = JSON.parse(response);
-                if (jsonData.success == 1)
+                if (jsonData.success === 1)
                 {
                     location.href = '';
                 }
