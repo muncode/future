@@ -115,6 +115,11 @@ footer .contacts {
     border: 2px double #000000;
     margin-left: auto;
     margin-right: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.form input[type="submit"]:hover{
+    background-color: #ffffff;
 }
 .form input, textarea{
     font-family: Roboto;
