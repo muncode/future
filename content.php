@@ -11,7 +11,7 @@ if ($result = $mysqli->query($query)) {
             <div class='datetime'>" . date('H:m  d-m-Y', strtotime($row['datetime'])) . "</div></div>
             <div class='row'>
             <div class='comment_text'>" . $row['comment'] . "</div>
-            <input type='hidden' name='task_id' value=" . $row['id'] . " /></div></form>";
+            <input type='hidden' name='comment_id' value=" . $row['id'] . " /></div></form>";
     }
     echo "</div>";
 }
