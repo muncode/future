@@ -7,6 +7,7 @@ require_once 'db.php';
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css"/>
     <style>
         @font-face {
